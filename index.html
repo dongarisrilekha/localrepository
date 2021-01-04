@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Axios in JavaScript</title>
+</head>
+<style>
+    table, td, th {  
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 15px;
+    }
+    h1{
+        text-align:center;
+    }
+    </style>
+    
+   
+   
+<body>
+    <div>
+        <h1>Users list from DB</h1>
+     <table id="table">
+            <tr>
+                <th>firstname</th>
+                <th>lastname</th>
+                <th>phonenumber</th>
+                <th>email</th>
+                <th>gender</th>
+                <th>state</th>
+            </tr>          
+            </table>
+    </div>
+   
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src = "/socket.io/socket.io.js"></script> -->
+   
+    <script>
+       var socket = io();
+    </script>
+</body>
+
+</html> 
